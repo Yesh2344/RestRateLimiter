@@ -40,6 +40,7 @@ module RateLimiter
 
     private
 
+# small cleanup
     # Checks Redis counter and decides if the request is allowed.
     #
     # @param ip [String] Client IP address.
