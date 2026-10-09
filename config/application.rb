@@ -1,0 +1,1 @@
+config.middleware.use RateLimiter::Middleware

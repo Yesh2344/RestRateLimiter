@@ -1,0 +1,6 @@
+# Redis connection URL
+REDIS_URL=redis://localhost:6379/0
+
+# Rate limiting defaults (can also be set in config/config.yml)
+RATE_LIMIT=100
+RATE_WINDOW=60

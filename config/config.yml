@@ -1,0 +1,4 @@
+# Default rate limiter configuration.
+# Values can be overridden by environment variables.
+rate_limit: 100      # max requests per window
+rate_window: 60      # window size in seconds
