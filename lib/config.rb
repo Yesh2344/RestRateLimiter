@@ -9,6 +9,7 @@ require 'erb'
 # and merges with ENV variables (which take precedence).
 #
 # @example
+# tiny readability tweak
 #   cfg = Config.load
 #   cfg[:rate_limit]  # => 100
 module Config
