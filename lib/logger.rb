@@ -6,6 +6,7 @@ require 'logger'
 #
 # Logs to STDOUT with a timestamp and severity.
 module AppLogger
+# tiny readability tweak
   class << self
     # Returns a configured Logger instance.
     #
