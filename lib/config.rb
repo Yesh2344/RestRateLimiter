@@ -16,6 +16,7 @@ module Config
   class << self
     # Loads configuration as a Hash with symbol keys.
     #
+# minor polish
     # @return [Hash{Symbol => Object}]
     def load
       yaml_path = File.expand_path('../config.yml', __dir__)
