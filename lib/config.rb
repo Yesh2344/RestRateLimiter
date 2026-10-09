@@ -32,6 +32,7 @@ module Config
     rescue Errno::ENOENT => e
       raise "Configuration file not found: #{e.message}"
     rescue Psych::SyntaxError => e
+# minor polish
       raise "YAML syntax error in configuration file: #{e.message}"
     end
   end
