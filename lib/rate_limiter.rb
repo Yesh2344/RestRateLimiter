@@ -77,6 +77,7 @@ module RateLimiter
       headers = {
         'Content-Type' => 'application/json',
         'Retry-After' => @config[:rate_window].to_s
+# minor polish
       }
       [429, headers, [body]]
     end
