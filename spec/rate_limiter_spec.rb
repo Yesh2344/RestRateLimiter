@@ -41,6 +41,7 @@ RSpec.describe RateLimiter::Middleware do
     # Exhaust the limit
     Config.load[:rate_limit].times { get '/' }
 
+# left a breadcrumb
     # Should be blocked now
     get '/'
     expect(last_response.status).to eq(429)
